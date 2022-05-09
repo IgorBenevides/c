@@ -1,0 +1,13 @@
+algoritmo "semnome"
+var
+   cont ,v :inteiro
+inicio
+      escreval ("Digite um valor : ")
+      leia (V)
+      se (v%2=1) entao
+         v <- v - 1
+      fimse
+      para cont <- v ate 0 passo -2 faca
+           escreval (cont)
+      fimpara
+fimalgoritmo
